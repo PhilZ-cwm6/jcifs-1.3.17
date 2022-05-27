@@ -16,11 +16,11 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.io.Serializable;
-import jcifs.UniAddress;
-import jcifs.util.Hexdump;
+import jcifs13.UniAddress;
+import jcifs13.util.Hexdump;
 
 public final class NtlmChallenge implements Serializable {
 

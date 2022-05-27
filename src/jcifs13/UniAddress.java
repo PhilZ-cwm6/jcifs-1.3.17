@@ -16,15 +16,15 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs;
+package jcifs13;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.io.IOException;
 import java.util.StringTokenizer;
-import jcifs.netbios.NbtAddress;
-import jcifs.netbios.Lmhosts;
-import jcifs.util.LogStream;
+import jcifs13.netbios.NbtAddress;
+import jcifs13.netbios.Lmhosts;
+import jcifs13.util.LogStream;
 
 /**
  * <p>Under normal conditions it is not necessary to use

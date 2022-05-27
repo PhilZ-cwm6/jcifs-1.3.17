@@ -1,4 +1,4 @@
-package jcifs.util.transport;
+package jcifs13.util.transport;
 
 public abstract class Response {
     public long expiration;

@@ -17,9 +17,9 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.dcerpc;
+package jcifs13.dcerpc;
 
-import jcifs.dcerpc.ndr.*;
+import jcifs13.dcerpc.ndr.*;
 
 public class DcerpcBind extends DcerpcMessage {
 
@@ -33,7 +33,7 @@ public class DcerpcBind extends DcerpcMessage {
     static String getResultMessage(int result) {
         return result < 4 ?
                 result_message[result] :
-                "0x" + jcifs.util.Hexdump.toHexString(result, 4);
+                "0x" + jcifs13.util.Hexdump.toHexString(result, 4);
     }
     public DcerpcException getResult() {
         if (result != 0)

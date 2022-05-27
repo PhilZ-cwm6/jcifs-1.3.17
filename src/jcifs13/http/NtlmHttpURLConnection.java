@@ -17,7 +17,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.http;
+package jcifs13.http;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
@@ -40,15 +40,15 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import jcifs.Config;
+import jcifs13.Config;
 
-import jcifs.ntlmssp.NtlmFlags;
-import jcifs.ntlmssp.NtlmMessage;
-import jcifs.ntlmssp.Type1Message;
-import jcifs.ntlmssp.Type2Message;
-import jcifs.ntlmssp.Type3Message;
+import jcifs13.ntlmssp.NtlmFlags;
+import jcifs13.ntlmssp.NtlmMessage;
+import jcifs13.ntlmssp.Type1Message;
+import jcifs13.ntlmssp.Type2Message;
+import jcifs13.ntlmssp.Type3Message;
 
-import jcifs.util.Base64;
+import jcifs13.util.Base64;
 
 /**
  * Wraps an <code>HttpURLConnection</code> to provide NTLM authentication

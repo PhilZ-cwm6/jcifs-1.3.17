@@ -16,7 +16,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.dcerpc.msrpc;
+package jcifs13.dcerpc.msrpc;
 
 public class MsrpcSamrConnect2 extends samr.SamrConnect2 {
 

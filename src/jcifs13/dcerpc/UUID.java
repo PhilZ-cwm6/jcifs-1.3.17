@@ -17,9 +17,9 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.dcerpc;
+package jcifs13.dcerpc;
 
-import jcifs.util.*;
+import jcifs13.util.*;
 
 public class UUID extends rpc.uuid_t {
 

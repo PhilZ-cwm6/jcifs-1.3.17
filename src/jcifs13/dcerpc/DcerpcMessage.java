@@ -17,10 +17,10 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.dcerpc;
+package jcifs13.dcerpc;
 
 import java.io.IOException;
-import jcifs.dcerpc.ndr.*;
+import jcifs13.dcerpc.ndr.*;
 
 public abstract class DcerpcMessage extends NdrObject implements DcerpcConstants {
 

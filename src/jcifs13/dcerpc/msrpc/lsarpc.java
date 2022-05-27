@@ -1,7 +1,7 @@
-package jcifs.dcerpc.msrpc;
+package jcifs13.dcerpc.msrpc;
 
-import jcifs.dcerpc.*;
-import jcifs.dcerpc.ndr.*;
+import jcifs13.dcerpc.*;
+import jcifs13.dcerpc.ndr.*;
 
 public class lsarpc {
 

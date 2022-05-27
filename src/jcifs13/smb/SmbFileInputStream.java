@@ -16,7 +16,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.net.URL;
 import java.net.UnknownHostException;
@@ -25,7 +25,7 @@ import java.io.InputStream;
 import java.io.IOException;
 import java.io.InterruptedIOException;
 
-import jcifs.util.transport.TransportException;
+import jcifs13.util.transport.TransportException;
 
 /**
  * This InputStream can read bytes from a file on an SMB file server. Offsets are 64 bits.

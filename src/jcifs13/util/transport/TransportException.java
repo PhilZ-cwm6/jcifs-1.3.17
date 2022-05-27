@@ -1,4 +1,4 @@
-package jcifs.util.transport;
+package jcifs13.util.transport;
 
 import java.io.IOException;
 import java.io.PrintWriter;

@@ -17,7 +17,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.dcerpc.ndr;
+package jcifs13.dcerpc.ndr;
 
 import java.io.IOException;
 

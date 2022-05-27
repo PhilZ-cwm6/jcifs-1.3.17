@@ -17,12 +17,12 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.dcerpc.msrpc;
+package jcifs13.dcerpc.msrpc;
 
 import java.io.IOException;
 
-import jcifs.smb.*;
-import jcifs.util.Hexdump;
+import jcifs13.smb.*;
+import jcifs13.util.Hexdump;
 
 public class MsrpcShareGetInfo extends srvsvc.ShareGetInfo {
 

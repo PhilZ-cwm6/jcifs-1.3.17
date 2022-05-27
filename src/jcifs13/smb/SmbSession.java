@@ -16,17 +16,17 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.util.Vector;
 import java.util.Enumeration;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.io.IOException;
-import jcifs.Config;
-import jcifs.UniAddress;
-import jcifs.netbios.NbtAddress;
-import jcifs.util.MD4;
+import jcifs13.Config;
+import jcifs13.UniAddress;
+import jcifs13.netbios.NbtAddress;
+import jcifs13.util.MD4;
 
 public final class SmbSession {
 

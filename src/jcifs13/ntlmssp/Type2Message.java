@@ -17,15 +17,15 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.ntlmssp;
+package jcifs13.ntlmssp;
 
 import java.io.IOException;
 
 import java.net.UnknownHostException;
 
-import jcifs.Config;
+import jcifs13.Config;
 
-import jcifs.netbios.NbtAddress;
+import jcifs13.netbios.NbtAddress;
 
 /**
  * Represents an NTLMSSP Type-2 message.
@@ -277,7 +277,7 @@ public class Type2Message extends NtlmMessage {
             ",challenge=" + (challenge == null ? "null" : "<" + challenge.length + " bytes>") +
             ",context=" + (context == null ? "null" : "<" + context.length + " bytes>") +
             ",targetInformation=" + (targetInformation == null ? "null" : "<" + targetInformation.length + " bytes>") +
-            ",flags=0x" + jcifs.util.Hexdump.toHexString(getFlags(), 8) + "]";
+            ",flags=0x" + jcifs13.util.Hexdump.toHexString(getFlags(), 8) + "]";
     }
 
     /**

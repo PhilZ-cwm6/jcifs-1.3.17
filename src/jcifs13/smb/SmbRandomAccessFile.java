@@ -16,7 +16,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.io.DataInput;
 import java.io.DataOutput;
@@ -25,7 +25,7 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.UnknownHostException;
-import jcifs.util.Encdec;
+import jcifs13.util.Encdec;
 
 public class SmbRandomAccessFile implements DataOutput, DataInput {
 

@@ -17,18 +17,18 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.io.*;
 import java.net.*;
 import java.util.*;
 
-import jcifs.*;
-import jcifs.netbios.*;
-import jcifs.util.*;
-import jcifs.util.transport.*;
-import jcifs.dcerpc.*;
-import jcifs.dcerpc.msrpc.*;
+import jcifs13.*;
+import jcifs13.netbios.*;
+import jcifs13.util.*;
+import jcifs13.util.transport.*;
+import jcifs13.dcerpc.*;
+import jcifs13.dcerpc.msrpc.*;
 
 public class SmbTransport extends Transport implements SmbConstants {
 
@@ -393,7 +393,7 @@ public class SmbTransport extends Transport implements SmbConstants {
             return null;
         if (log.level >= 4) {
             log.println( "New data read: " + this );
-            jcifs.util.Hexdump.hexdump( log, sbuf, 4, 32 );
+            jcifs13.util.Hexdump.hexdump( log, sbuf, 4, 32 );
         }
 
         for ( ;; ) {

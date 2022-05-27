@@ -16,7 +16,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.net.URLConnection;
 import java.net.URL;
@@ -29,12 +29,12 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.security.Principal;
-import jcifs.Config;
-import jcifs.util.LogStream;
-import jcifs.UniAddress;
-import jcifs.netbios.NbtAddress;
-import jcifs.dcerpc.*;
-import jcifs.dcerpc.msrpc.*;
+import jcifs13.Config;
+import jcifs13.util.LogStream;
+import jcifs13.UniAddress;
+import jcifs13.netbios.NbtAddress;
+import jcifs13.dcerpc.*;
+import jcifs13.dcerpc.msrpc.*;
 
 import java.util.Date;
 

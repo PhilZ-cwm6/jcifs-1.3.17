@@ -17,7 +17,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.ntlmssp;
+package jcifs13.ntlmssp;
 
 import java.io.IOException;
 
@@ -25,17 +25,17 @@ import java.net.UnknownHostException;
 
 import java.security.SecureRandom;
 
-import jcifs.Config;
+import jcifs13.Config;
 
-import jcifs.netbios.NbtAddress;
+import jcifs13.netbios.NbtAddress;
 
-import jcifs.smb.NtlmPasswordAuthentication;
-import jcifs.util.HMACT64;
+import jcifs13.smb.NtlmPasswordAuthentication;
+import jcifs13.util.HMACT64;
 import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 import java.security.GeneralSecurityException;
-import jcifs.util.MD4;
-import jcifs.util.RC4;
+import jcifs13.util.MD4;
+import jcifs13.util.RC4;
 
 /**
  * Represents an NTLMSSP Type-3 message.
@@ -496,7 +496,7 @@ public class Type3Message extends NtlmMessage {
             ",lmResponse=" + (lmResponse == null ? "null" : "<" + lmResponse.length + " bytes>") +
             ",ntResponse=" + (ntResponse == null ? "null" : "<" + ntResponse.length + " bytes>") +
             ",sessionKey=" + (sessionKey == null ? "null" : "<" + sessionKey.length + " bytes>") +
-            ",flags=0x" + jcifs.util.Hexdump.toHexString(getFlags(), 8) + "]";
+            ",flags=0x" + jcifs13.util.Hexdump.toHexString(getFlags(), 8) + "]";
     }
 
     /**

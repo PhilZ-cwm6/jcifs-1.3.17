@@ -16,15 +16,15 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.netbios;
+package jcifs13.netbios;
 
 import java.net.Socket;
 import java.net.InetAddress;
 import java.io.InputStream;
 import java.io.OutputStream;
 import java.io.IOException;
-import jcifs.Config;
-import jcifs.util.LogStream;
+import jcifs13.Config;
+import jcifs13.util.LogStream;
 
 /**
 Do not use this class. Writing to the OutputStream of this type of socket

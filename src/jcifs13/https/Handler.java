@@ -17,7 +17,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.https;
+package jcifs13.https;
 
 /**
  * A <code>URLStreamHandler</code> used to provide NTLM authentication
@@ -25,7 +25,7 @@ package jcifs.https;
  * handling authentication and passing control to the underlying
  * stream handler.
  */
-public class Handler extends jcifs.http.Handler {
+public class Handler extends jcifs13.http.Handler {
 
     /**
      * The default HTTPS port (<code>443</code>).

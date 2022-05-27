@@ -58,7 +58,7 @@
 // SUCH DAMAGE.
 //
 
-package jcifs.util;
+package jcifs13.util;
 
 import java.io.*;
 

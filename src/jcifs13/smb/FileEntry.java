@@ -1,4 +1,4 @@
-package jcifs.smb;
+package jcifs13.smb;
 
 public interface FileEntry {
 

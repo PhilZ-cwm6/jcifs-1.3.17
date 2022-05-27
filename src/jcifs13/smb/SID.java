@@ -17,14 +17,14 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.util.*;
 import java.io.IOException;
 
-import jcifs.util.Hexdump;
-import jcifs.dcerpc.*;
-import jcifs.dcerpc.msrpc.*;
+import jcifs13.util.Hexdump;
+import jcifs13.dcerpc.*;
+import jcifs13.dcerpc.msrpc.*;
 
 /**
  * A Windows SID is a numeric identifier used to represent Windows
@@ -258,7 +258,7 @@ synchronized (sid_cache) {
         System.arraycopy(sid.identifier_authority, 0, dst, di, 6);
         di += 6;
         for (int ii = 0; ii < sid.sub_authority_count; ii++) {
-            jcifs.util.Encdec.enc_uint32le(sid.sub_authority[ii], dst, di);
+            jcifs13.util.Encdec.enc_uint32le(sid.sub_authority[ii], dst, di);
             di += 4;
         }
         return dst;

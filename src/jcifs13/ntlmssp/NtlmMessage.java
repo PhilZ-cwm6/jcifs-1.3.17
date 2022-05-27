@@ -17,9 +17,9 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.ntlmssp;
+package jcifs13.ntlmssp;
 
-import jcifs.Config;
+import jcifs13.Config;
 
 /**
  * Abstract superclass for all NTLMSSP messages.

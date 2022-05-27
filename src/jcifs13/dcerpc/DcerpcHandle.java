@@ -17,15 +17,15 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.dcerpc;
+package jcifs13.dcerpc;
 
 import java.io.*;
 import java.net.*;
 import java.security.Principal;
 
-import jcifs.smb.NtlmPasswordAuthentication;
-import jcifs.util.Hexdump;
-import jcifs.dcerpc.ndr.NdrBuffer;
+import jcifs13.smb.NtlmPasswordAuthentication;
+import jcifs13.util.Hexdump;
+import jcifs13.dcerpc.ndr.NdrBuffer;
 
 public abstract class DcerpcHandle implements DcerpcConstants {
 
@@ -142,7 +142,7 @@ synchronized (this) {
 
         isDirect = true;
 
-        stub = jcifs.smb.BufferCache.getBuffer();
+        stub = jcifs13.smb.BufferCache.getBuffer();
         try {
             int off, tot, n;
 
@@ -243,7 +243,7 @@ synchronized (this) {
             buf = new NdrBuffer(stub, 0);
             msg.decode(buf);
         } finally {
-            jcifs.smb.BufferCache.releaseBuffer(stub);
+            jcifs13.smb.BufferCache.releaseBuffer(stub);
         }
 
         if ((de = msg.getResult()) != null)

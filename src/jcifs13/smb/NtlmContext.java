@@ -16,14 +16,14 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.io.IOException;
 import java.security.*;
-import jcifs.ntlmssp.*;
-import jcifs.util.LogStream;
-import jcifs.util.Hexdump;
-import jcifs.util.Encdec;
+import jcifs13.ntlmssp.*;
+import jcifs13.util.LogStream;
+import jcifs13.util.Hexdump;
+import jcifs13.util.Encdec;
 
 /**
 For initiating NTLM authentication (including NTLMv2). If you want to add NTLMv2 authentication support to something this is what you want to use. See the code for details. Note that JCIFS does not implement the acceptor side of NTLM authentication.

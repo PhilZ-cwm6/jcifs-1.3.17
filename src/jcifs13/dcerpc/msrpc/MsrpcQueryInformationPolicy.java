@@ -16,11 +16,11 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.dcerpc.msrpc;
+package jcifs13.dcerpc.msrpc;
 
-import jcifs.smb.*;
-import jcifs.dcerpc.*;
-import jcifs.dcerpc.ndr.*;
+import jcifs13.smb.*;
+import jcifs13.dcerpc.*;
+import jcifs13.dcerpc.ndr.*;
 
 public class MsrpcQueryInformationPolicy extends lsarpc.LsarQueryInformationPolicy {
 

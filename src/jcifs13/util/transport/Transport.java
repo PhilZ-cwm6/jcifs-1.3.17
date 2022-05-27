@@ -1,9 +1,9 @@
-package jcifs.util.transport;
+package jcifs13.util.transport;
 
 import java.io.*;
 import java.net.*;
 import java.util.*;
-import jcifs.util.LogStream;
+import jcifs13.util.LogStream;
 
 /**
  * This class simplifies communication for protocols that support

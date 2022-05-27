@@ -16,14 +16,14 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs;
+package jcifs13;
 
 import java.util.Properties;
 import java.io.*;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.StringTokenizer;
-import jcifs.util.LogStream;
+import jcifs13.util.LogStream;
 
 /**
  * This class uses a static {@link java.util.Properties} to act

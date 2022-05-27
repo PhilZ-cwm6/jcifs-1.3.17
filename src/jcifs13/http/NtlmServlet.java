@@ -17,7 +17,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.http;
+package jcifs13.http;
 
 import java.io.IOException;
 
@@ -34,16 +34,16 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import jcifs.Config;
-import jcifs.UniAddress;
+import jcifs13.Config;
+import jcifs13.UniAddress;
 
-import jcifs.smb.NtlmPasswordAuthentication;
-import jcifs.smb.SmbAuthException;
-import jcifs.smb.SmbSession;
+import jcifs13.smb.NtlmPasswordAuthentication;
+import jcifs13.smb.SmbAuthException;
+import jcifs13.smb.SmbSession;
 
-import jcifs.util.Base64;
+import jcifs13.util.Base64;
 
-import jcifs.netbios.NbtAddress;
+import jcifs13.netbios.NbtAddress;
 
 /**
  * This servlet may be used with pre-2.3 servlet containers

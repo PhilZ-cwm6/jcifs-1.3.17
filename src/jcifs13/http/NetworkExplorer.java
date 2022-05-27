@@ -16,7 +16,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.http;
+package jcifs13.http;
 
 import java.io.*;
 import javax.servlet.*;
@@ -24,13 +24,13 @@ import javax.servlet.http.*;
 import java.util.*;
 import java.text.SimpleDateFormat;
 import java.net.UnknownHostException;
-import jcifs.*;
-import jcifs.http.*;
-import jcifs.smb.*;
-import jcifs.netbios.NbtAddress;
-import jcifs.util.MimeMap;
-import jcifs.util.Base64;
-import jcifs.util.LogStream;
+import jcifs13.*;
+import jcifs13.http.*;
+import jcifs13.smb.*;
+import jcifs13.netbios.NbtAddress;
+import jcifs13.util.MimeMap;
+import jcifs13.util.Base64;
+import jcifs13.util.LogStream;
 
 /**
  * This servlet may be used to "browse" the entire hierarchy of resources

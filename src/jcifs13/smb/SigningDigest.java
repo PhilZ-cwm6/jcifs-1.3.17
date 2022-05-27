@@ -1,11 +1,11 @@
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.io.IOException;
-import jcifs.Config;
-import jcifs.util.LogStream;
-import jcifs.util.Hexdump;
+import jcifs13.Config;
+import jcifs13.util.LogStream;
+import jcifs13.util.Hexdump;
 
 /**
  * To filter 0 len updates and for debugging

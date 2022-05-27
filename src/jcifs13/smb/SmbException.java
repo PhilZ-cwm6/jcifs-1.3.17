@@ -16,12 +16,12 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.io.IOException;
 import java.io.StringWriter;
 import java.io.PrintWriter;
-import jcifs.util.Hexdump;
+import jcifs13.util.Hexdump;
 
 /**
  * There are hundreds of error codes that may be returned by a CIFS

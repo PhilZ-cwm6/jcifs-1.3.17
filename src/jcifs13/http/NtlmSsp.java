@@ -19,7 +19,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.http;
+package jcifs13.http;
 
 import java.io.IOException;
 
@@ -28,14 +28,14 @@ import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import jcifs.smb.NtlmPasswordAuthentication;
+import jcifs13.smb.NtlmPasswordAuthentication;
 
-import jcifs.util.Base64;
+import jcifs13.util.Base64;
 
-import jcifs.ntlmssp.NtlmFlags;
-import jcifs.ntlmssp.Type1Message;
-import jcifs.ntlmssp.Type2Message;
-import jcifs.ntlmssp.Type3Message;
+import jcifs13.ntlmssp.NtlmFlags;
+import jcifs13.ntlmssp.Type1Message;
+import jcifs13.ntlmssp.Type2Message;
+import jcifs13.ntlmssp.Type3Message;
 
 /**
  * This class is used internally by <tt>NtlmHttpFilter</tt>,

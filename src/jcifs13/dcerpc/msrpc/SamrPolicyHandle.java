@@ -16,11 +16,11 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.dcerpc.msrpc;
+package jcifs13.dcerpc.msrpc;
 
 import java.io.IOException;
 
-import jcifs.dcerpc.*;
+import jcifs13.dcerpc.*;
 
 public class SamrPolicyHandle extends rpc.policy_handle {
 

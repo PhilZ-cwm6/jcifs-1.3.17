@@ -16,7 +16,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.netbios;
+package jcifs13.netbios;
 
 import java.io.InputStream;
 import java.io.IOException;

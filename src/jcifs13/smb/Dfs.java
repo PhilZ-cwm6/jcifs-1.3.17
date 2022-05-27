@@ -16,14 +16,14 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.util.*;
 import java.io.*;
 
-import jcifs.UniAddress;
-import jcifs.util.*;
-import jcifs.Config;
+import jcifs13.UniAddress;
+import jcifs13.util.*;
+import jcifs13.Config;
 
 public class Dfs {
 

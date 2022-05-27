@@ -16,9 +16,9 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.dcerpc;
+package jcifs13.dcerpc;
 
-import jcifs.dcerpc.ndr.NdrBuffer;
+import jcifs13.dcerpc.ndr.NdrBuffer;
 
 public interface DcerpcSecurityProvider
 {

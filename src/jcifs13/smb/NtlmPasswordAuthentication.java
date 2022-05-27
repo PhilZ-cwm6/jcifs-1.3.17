@@ -17,7 +17,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.io.UnsupportedEncodingException;
 import java.io.Serializable;
@@ -26,8 +26,8 @@ import java.security.MessageDigest;
 import java.security.GeneralSecurityException;
 import java.util.Random;
 import java.util.Arrays;
-import jcifs.Config;
-import jcifs.util.*;
+import jcifs13.Config;
+import jcifs13.util.*;
 
 /**
  * This class stores and encrypts NTLM user credentials. The default

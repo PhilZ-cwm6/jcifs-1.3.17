@@ -20,21 +20,21 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.http;
+package jcifs13.http;
 
 import java.io.*;
 import java.util.Enumeration;
 import java.net.UnknownHostException;
 import javax.servlet.*;
 import javax.servlet.http.*;
-import jcifs.*;
-import jcifs.smb.SmbSession;
-import jcifs.smb.NtlmChallenge;
-import jcifs.smb.NtlmPasswordAuthentication;
-import jcifs.smb.SmbAuthException;
-import jcifs.util.Base64;
-import jcifs.util.LogStream;
-import jcifs.netbios.NbtAddress;
+import jcifs13.*;
+import jcifs13.smb.SmbSession;
+import jcifs13.smb.NtlmChallenge;
+import jcifs13.smb.NtlmPasswordAuthentication;
+import jcifs13.smb.SmbAuthException;
+import jcifs13.util.Base64;
+import jcifs13.util.LogStream;
+import jcifs13.netbios.NbtAddress;
 
 /**
  * This servlet Filter can be used to negotiate password hashes with
@@ -195,7 +195,7 @@ public class NtlmHttpFilter implements Filter {
             } catch( SmbAuthException sae ) {
                 if( log.level > 1 ) {
                     log.println( "NtlmHttpFilter: " + ntlm.getName() +
-                            ": 0x" + jcifs.util.Hexdump.toHexString( sae.getNtStatus(), 8 ) +
+                            ": 0x" + jcifs13.util.Hexdump.toHexString( sae.getNtStatus(), 8 ) +
                             ": " + sae );
                 }
                 if( sae.getNtStatus() == sae.NT_STATUS_ACCESS_VIOLATION ) {

@@ -1,9 +1,9 @@
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.util.LinkedList;
 import java.net.InetAddress;
 import java.util.TimeZone;
-import jcifs.Config;
+import jcifs13.Config;
 
 interface SmbConstants {
 

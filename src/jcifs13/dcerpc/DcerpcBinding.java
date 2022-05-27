@@ -17,12 +17,12 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.dcerpc;
+package jcifs13.dcerpc;
 
 import java.util.HashMap;
 import java.util.Iterator;
 
-import jcifs.dcerpc.msrpc.*;
+import jcifs13.dcerpc.msrpc.*;
 
 public class DcerpcBinding {
 

@@ -21,7 +21,7 @@
  * MA 02111-1307, USA
  */
 
-package jcifs.util;
+package jcifs13.util;
 
 import java.util.Date;
 import java.io.IOException;

@@ -16,7 +16,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.netbios;
+package jcifs13.netbios;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -27,9 +27,9 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.Hashtable;
 import java.net.UnknownHostException;
-import jcifs.Config;
-import jcifs.smb.SmbFileInputStream;
-import jcifs.util.LogStream;
+import jcifs13.Config;
+import jcifs13.smb.SmbFileInputStream;
+import jcifs13.util.LogStream;
 
 public class Lmhosts {
 

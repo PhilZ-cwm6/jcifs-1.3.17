@@ -16,7 +16,7 @@
  * on behalf of the Cryptix Development Team.  All rights reserved.
  */
 
-package jcifs.util;
+package jcifs13.util;
 
 import java.security.MessageDigest;
 

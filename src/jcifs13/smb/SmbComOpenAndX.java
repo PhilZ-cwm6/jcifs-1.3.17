@@ -16,11 +16,11 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.util.Date;
-import jcifs.Config;
-import jcifs.util.Hexdump;
+import jcifs13.Config;
+import jcifs13.util.Hexdump;
 
 class SmbComOpenAndX extends AndXServerMessageBlock {
 

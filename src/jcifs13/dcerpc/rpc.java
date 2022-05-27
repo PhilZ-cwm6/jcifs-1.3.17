@@ -1,7 +1,7 @@
-package jcifs.dcerpc;
+package jcifs13.dcerpc;
 
-import jcifs.dcerpc.ndr.*;
-import jcifs.util.*;
+import jcifs13.dcerpc.ndr.*;
+import jcifs13.util.*;
 
 public class rpc {
 

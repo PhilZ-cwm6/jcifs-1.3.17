@@ -1,4 +1,4 @@
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.io.InputStream;
 import java.io.IOException;

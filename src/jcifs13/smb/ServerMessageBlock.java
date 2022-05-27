@@ -16,18 +16,18 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.smb;
+package jcifs13.smb;
 
-import jcifs.Config;
+import jcifs13.Config;
 import java.io.InputStream;
 import java.io.PushbackInputStream;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.Calendar;
 import java.util.Date;
-import jcifs.util.Hexdump;
-import jcifs.util.LogStream;
-import jcifs.util.transport.*;
+import jcifs13.util.Hexdump;
+import jcifs13.util.LogStream;
+import jcifs13.util.transport.*;
 
 abstract class ServerMessageBlock extends Response implements Request, SmbConstants {
 

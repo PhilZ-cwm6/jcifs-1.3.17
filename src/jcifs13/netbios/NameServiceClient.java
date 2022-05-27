@@ -16,15 +16,15 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.netbios;
+package jcifs13.netbios;
 
 import java.net.*;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.StringTokenizer;
-import jcifs.Config;
-import jcifs.util.Hexdump;
-import jcifs.util.LogStream;
+import jcifs13.Config;
+import jcifs13.util.Hexdump;
+import jcifs13.util.LogStream;
 
 class NameServiceClient implements Runnable {
 

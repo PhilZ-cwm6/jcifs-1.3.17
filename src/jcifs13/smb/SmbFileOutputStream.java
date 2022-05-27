@@ -16,14 +16,14 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.smb;
+package jcifs13.smb;
 
 import java.net.URL;
 import java.io.OutputStream;
 import java.io.IOException;
 import java.net.UnknownHostException;
 import java.net.MalformedURLException;
-import jcifs.util.LogStream;
+import jcifs13.util.LogStream;
 
 /**
  * This <code>OutputStream</code> can write bytes to a file on an SMB file server.

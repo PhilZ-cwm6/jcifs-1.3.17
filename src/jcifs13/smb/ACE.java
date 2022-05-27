@@ -1,6 +1,6 @@
-package jcifs.smb;
+package jcifs13.smb;
 
-import jcifs.util.Hexdump;
+import jcifs13.util.Hexdump;
 import java.io.IOException;
 
 /**

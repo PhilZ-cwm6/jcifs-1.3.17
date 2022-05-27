@@ -17,12 +17,12 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-package jcifs.dcerpc;
+package jcifs13.dcerpc;
 
 import java.io.*;
 
-import jcifs.util.Hexdump;
-import jcifs.smb.WinError;
+import jcifs13.util.Hexdump;
+import jcifs13.smb.WinError;
 
 public class DcerpcException extends IOException implements DcerpcError, WinError {
 
